@@ -51,7 +51,7 @@ update system = sudo apt-fast update
 
 upgrade system = sudo apt-fast upgrade
 
-update and upgrade = sudo apt-fast update && apt upgrade
+update and upgrade = sudo apt-fast update && apt-fast upgrade
 
 install package = sudo apt-fast install (package name)
 
