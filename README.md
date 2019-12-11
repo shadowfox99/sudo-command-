@@ -14,7 +14,7 @@ update and upgrade = sudo apt update && apt upgrade
 
 install package = sudo apt install (package name)    --->for example: sudo apt install chrome
 
-install package = sudo apt install (package name) (package name)
+install package = sudo apt install (package name 1) (package name 2)   ---> sudo apt install clamav clamtk 
 
 remove package = sudo apt remove (package name) 
 
@@ -34,7 +34,7 @@ update and upgrade = sudo apt update && apt upgrade
 
 install package = sudo apt-get install (package name)
 
-install package = sudo apt-get install (package name) (package name)
+install package = sudo apt-get install (package name 1) (package name 2)
 
 remove package = sudo apt-get remove (package name) 
 
@@ -55,7 +55,7 @@ update and upgrade = sudo apt-fast update && apt-fast upgrade
 
 install package = sudo apt-fast install (package name)
 
-install package = sudo apt-fast install (package name) (package name)
+install package = sudo apt-fast install (package name 1) (package name 2)
 
 remove package = sudo apt-fast remove (package name) 
 
